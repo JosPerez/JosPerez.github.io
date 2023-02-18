@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Mobile Game</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="code/script.js"></script>
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main-home">
         <section id="home">
             <h2>About the Game</h2>
             <p>¡Bienvenido a Lotería! La aplicación perfecta para disfrutar del popular juego mexicano en cualquier momento y lugar.</p>
@@ -32,11 +33,26 @@
             <p>Juega el clásico juego mexicano de mesa donde cada carta tiene un dibujo único. Lotería en tu dispositivo iOS. ¡Juega solo o con amigos en línea! 🇲🇽🎉</p>
             <a href="#">Play Now</a>
         </section>
+        <section>
+          <div class="carousel">
+            <div class="carousel-container">
+              <img class="carousel-item" src="assets/screen.png">
+              <img class="carousel-item" src="assets/screen2.png">
+              <img class="carousel-item" src="assets/screen3.png">
+              <img class="carousel-item" src="assets/screen4.png">
+              <img class="carousel-item" src="assets/screen5.png">
+              <img class="carousel-item" src="assets/screen6.png">
+              <img class="carousel-item" src="assets/screen7.png">
+            </div>
+            <button class="carousel-prev" onclick="prevImage()">&#8249;</button>
+            <button class="carousel-next" onclick="nextImage()">&#8250;</button>
+          </div>
+                    
+        </section>
     </main>
     <footer>
         <p>&copy; 2023 My Mobile Game</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
 

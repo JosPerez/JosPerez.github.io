@@ -63,6 +63,7 @@ header {
 }
 
 #dev-nav a {
+  height: auto;
   display: block;
   padding: 5px 10px;
   border: 1px solid #00ff00;
@@ -92,6 +93,9 @@ main {
 #main-home {
   background-color: black;
   color: white;
+}
+#main-home p {
+ padding-bottom: 1rem;
 }
 section {
   margin-bottom: 2rem;
@@ -127,6 +131,12 @@ footer {
   font-family: monospace;
   background-color: black;
   color: #00ff00; /* green text color */
+}
+#resume li {
+  padding-bottom: 1rem;
+}
+#working-experience-list ul li {
+  padding-bottom: 0rem;
 }
 /* double the size of h3 compared to li with a minimum size of 14px */
 h3 {
@@ -221,4 +231,13 @@ h3 {
 
 .carousel-next {
   right: 0;
+}
+/*Small Screen Config*/
+@media only screen and (max-width: 600px) {
+  #resume {
+    max-width: 100%;
+  }
+  #dev-nav a{
+    font-size: 86%;
+  }
 }

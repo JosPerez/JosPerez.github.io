@@ -14,3 +14,12 @@ function showSection(sectionId) {
   }
 }
 
+function showSubmitAlert() {
+  // Get all the section elements
+  const name = document.getElementById("name");
+  const nameText = name.value;
+  // Get all the section elements
+  const subject = document.getElementById("subject");
+  const subjectValue = subject.value;
+  alert(nameText + ', Your message with Subject: ' + '"' + subjectValue + '"' + '\n was submitted.');
+}

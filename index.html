@@ -1,99 +1,42 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Soporte</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mobile Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JEMP</h1>
+        <nav id="main-bar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>About the Game</h2>
+            <p>¡Bienvenido a Lotería! La aplicación perfecta para disfrutar del popular juego mexicano en cualquier momento y lugar.</p>
+            <p>Lotería es un juego de mesa clásico que ha sido parte de la cultura mexicana durante siglos. Ahora puedes llevar este divertido juego a tu dispositivo iOS y jugarlo en cualquier momento, solo o con amigos.</p>
+            <p>La aplicación cuenta con una interfaz intuitiva y fácil de usar que te permite elegir entre diferentes opciones de juego. Puedes jugar contra la computadora, un amigo en la misma habitación o incluso con amigos y familiares a través de la función multijugador en línea.</p>
+            <p>Lotería también te permite personalizar la experiencia de juego según tus preferencias. Puedes elegir entre diferentes mazos de cartas, ajustar la velocidad del juego y seleccionar la dificultad del nivel de la computadora</p>
+            <p>La aplicación también cuenta con efectos de sonido y animaciones para hacer que la experiencia de juego sea aún más emocionante y auténtica. Además, puedes ganar logros y competir con otros jugadores en el tablero de clasificación para demostrar tus habilidades en Lotería.</p>
+            <p>¡Descarga Lotería hoy y comienza a disfrutar de este divertido juego de mesa mexicano en tu dispositivo iOS!</p>
+        </section>
+        <section id="description">
+            <h2>Gameplay</h2>
+            <p>Juega el clásico juego mexicano de mesa donde cada carta tiene un dibujo único. Lotería en tu dispositivo iOS. ¡Juega solo o con amigos en línea! 🇲🇽🎉</p>
+            <a href="#">Play Now</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Mobile Game</p>
+    </footer>
     <script src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="#" onclick="showSection('personal-information')">Personal Information</a></li>
-        <li><a href="#" onclick="showSection('projects')">Projects</a></li>
-        <li><a href="#" onclick="showSection('working-experience')">Working Experience</a></li>
-        <li><a href="#" onclick="showSection('academic-information')">Academic Information</a></li>
-      </ul>
-    </nav>    
-    <section id="personal-information">
-      <h2>Personal Information</h2>
-      <ul>
-      <li>Name: IID José Eduardo Pérez Martínez</li>
-      <li>Email: jos.perez.mtz@gmail.com</li>
-      <li>Phone: (+52 1) 951 169 4297</li>
-      <li>Address: Pino Trompillo 1959 Col. Privada Pinos Monterrey, Nuevo León</li>
-      <li>Summary: Innovation and Development Engineer with knowledge in Software Engineering and Project Management, focus on the creation of innovative apps based on user requirements, translate requirements into functional and efficient products. Abilities: Team-working, Creativity, Result-Oriented work, Self-motivated.</li>
-      </ul>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <h3>WeeGo</h3>
-          <p>Project Manager + Developer</p>
-          <p>Aug 2020 – Sept 2020</p>
-          <p>Design, programming, and testing a cross-platform CarWash mobile app, WeeGo is a go-to solution for getting your car cleaned at the place. Use of dart/flutter, Firebase, Google Cloud Platform.</p>
-        </li>
-        <li>
-          <h3>HEB To GO</h3>
-          <p>Software Engineer (Axtel IT Challenge)</p>
-          <p>Sept 2017 – Nov 2017</p>
-          <p>Interface Design and Algorithm Design of the short path app for HEB focus on making the delivery system; giving four spots, the app creates the best route for delivery. Swift developer, Design Thinking, UX, Short Path Algorithms.</p>
-        </li>
-      </ul>
-    </section>
-    <section id="working-experience">
-      <h2>Working Experience</h2>
-      <ul>
-        <li>
-          <h3>Gonet</h3>
-          <p>IOS Developer Sr</p>
-          <p>Apr 2022 – Present</p>
-          <ul>
-            <li>Implement new features on the SDK.</li>
-            <li>Collect new non-private data from Iphone devices on Swift and ReactNative. Create a CI/CD pipeline with Fastlane and Github actions</li>
-            <li>Maintenance of features of the SDK</li>
-            <li>Create new sandbox app for SDK testing</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Banregio</h3>
-          <p>IOS Developer</p>
-          <p>Apr 2019 – Apr 2022</p>
-          <ul>
-            <li>Performed in a Semi-Senior developer role, working on BANREGIO and HEYBANCO apps.</li>
-            <li>Working with the development team of CoDi.</li>
-            <li>Develop an internal IOS framework. Framework supports coding and decoding of entities in a SQL database. Deploy pods and framework to production.</li>
-            <li>App distribution by TestFlight and Firebase App distribution.</li>
-            <li>Working experience with JIRA, BITBUCKET, Agile Methodology (SCRUM).</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Digital Hub</h3>
-          <p>Internship (Social Listening)</p>
-          <p>Nov 2016 – Jun 2017</p>
-          <ul>
-            <li>Responsible for the extraction, categorization, and interpretation of information obtained from different social networks and news portals related to 2 Universities (Tecnológico de Monterrey y TecMilenio); to know the health of the brand as well as the detection of indicators of insecurity and bad practices.</li>
-          </ul>
-        </li>
-    </ul>
-  </section>
-  <section id="academic-information">
-    <h2>Academic Information</h2>
-    <ul>
-      <li>
-       <h3>Development and Innovation Engineer</h3>
-       <p>Tecnológico de Monterrey– Monterrey</p>
-       <p>Aug 2013– Dec 2017</p>
-       <ul>
-         <li>Menor in Computer Science.</li>
-       </ul>
-      </li>
-      <li>
-    <h3>International Intensive English Course</h3>
-    <p>EF – Vancouver, CA</p>
-    <p>Jan 2018 - Jun 2018</p>
-      </li>
-    </ul>
-  </section>
-  </body>
+</body>
 </html>
+

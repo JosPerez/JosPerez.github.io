@@ -1,39 +1,166 @@
-/* set body font to monospace and background color to black */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: monospace;
-    background-color: black;
-    color: #00ff00; /* green text color */
-  }
-  
-  /* style nav links to look like command buttons */
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 10px;
-  }
-  
-  nav a {
-    display: block;
-    padding: 5px 10px;
-    border: 1px solid #00ff00;
-    border-radius: 3px;
-    text-decoration: none;
-    color: #00ff00;
-  }
-  
-  nav a:hover {
-    background-color: #00ff00;
-    color: black;
-  }
-  
-  /* double the size of h3 compared to li with a minimum size of 14px */
-  h3 {
-    font-size: max(14px, calc(2 * 1em));
-  }
-  
-  
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+#main-bar li {
+  margin-right: 1rem;
+}
+
+#main-bar a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+#main-bar a:hover {
+  background-color: rgb(72, 72, 72);
+  color: #f2f2f2;
+}
+/* style nav links to look like command buttons */
+#dev-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#dev-nav li {
+  margin-right: 10px;
+  text-decoration-style: none;
+}
+
+#dev-nav a {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid #00ff00;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #00ff00;
+}
+
+#dev-nav a:hover {
+  background-color: #00ff00;
+  color: black;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #f2f2f2;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+a:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+  color: #f2f2f2;
+  text-align: center;
+}
+#resume {
+  font-family: monospace;
+  background-color: black;
+  color: #00ff00; /* green text color */
+}
+/* double the size of h3 compared to li with a minimum size of 14px */
+h3 {
+  font-size: max(14px, calc(2 * 1em));
+}
+#support-form {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#support-form h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#support-form label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#support-form input[type="text"],
+#support-form input[type="email"],
+#support-form textarea {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#support-form textarea {
+  height: 150px;
+}
+
+#support-form button[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#support-form button[type="submit"]:hover {
+  background-color: #3E8E41;
+}

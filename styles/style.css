@@ -188,11 +188,11 @@ h3 {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  overflow: scroll;
 }
 
 .carousel-container {
   display: flex;
-  overflow: hidden;
 }
 
 .carousel-item {
@@ -201,7 +201,6 @@ h3 {
   object-fit: cover;
   margin: 0 10px;
 }
-
 .carousel-prev,
 .carousel-next {
   position: absolute;
@@ -223,9 +222,3 @@ h3 {
 .carousel-next {
   right: 0;
 }
-
-
-
-
-
-

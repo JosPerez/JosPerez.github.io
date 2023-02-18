@@ -1,0 +1,39 @@
+/* set body font to monospace and background color to black */
+body {
+    font-family: monospace;
+    background-color: black;
+    color: #00ff00; /* green text color */
+  }
+  
+  /* style nav links to look like command buttons */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #00ff00;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #00ff00;
+  }
+  
+  nav a:hover {
+    background-color: #00ff00;
+    color: black;
+  }
+  
+  /* double the size of h3 compared to li with a minimum size of 14px */
+  h3 {
+    font-size: max(14px, calc(2 * 1em));
+  }
+  
+  
